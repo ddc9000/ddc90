@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9001 | ddc90</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap">
+    <style>
+        :root {
+            --green: #7CFC00;
+            --green-bright: #ADFF2F;
+            --green-dark: #4CAF50;
+            --bg: #0a0a0a;
+            --text: #7CFC00;
+        }
+        body {
+            background: var(--bg);
+            color: var(--text);
+            font-family: 'IBM Plex Mono', 'Courier New', monospace;
+            line-height: 1.7;
+            padding: 2rem;
+            max-width: 860px;
+            margin: 0 auto;
+            font-size: 15px;
+        }
+        h1 {
+            color: #ffffff;
+            font-size: 2.2rem;
+            margin-bottom: 0.2rem;
+            letter-spacing: 2px;
+        }
+        h2 {
+            color: #ffffff;
+            font-size: 1.1rem;
+            margin-top: 2.2rem;
+            margin-bottom: 0.6rem;
+            border-bottom: 1px solid #333;
+            padding-bottom: 0.3rem;
+        }
+        a {
+            color: var(--green-bright);
+            text-decoration: none;
+        }
+        a:hover {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+        .terminal {
+            border-left: 4px solid var(--green);
+            padding-left: 1.2rem;
+            margin: 1.5rem 0;
+        }
+        .section {
+            margin-bottom: 2.2rem;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 0.55rem;
+            padding-left: 1.1rem;
+            position: relative;
+        }
+        li:before {
+            content: "▹ ";
+            color: var(--green-dark);
+            position: absolute;
+            left: 0;
+        }
+        .note {
+            font-size: 0.85rem;
+            opacity: 0.75;
+            border-left: 2px solid #444;
+            padding-left: 0.8rem;
+        }
+        footer {
+            margin-top: 4rem;
+            opacity: 0.6;
+            font-size: 0.85rem;
+            border-top: 1px solid #222;
+            padding-top: 1rem;
+        }
+        .mono {
+            font-family: 'IBM Plex Mono', monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>9001</h1>
+    <p style="margin-top:0; color:#888;">ddc90 — Wizard Library & Public Domain Resources</p>
+
+    <div class="terminal">
+        <h2 style="margin-top:0;">$ cat README</h2>
+        <p>Persoonlijke verzameling van hoogwaardige, gratis bronnen in het publieke domein en Creative Commons. Boeken, kunst, wetenschap, permacultuur en paardveilige planten. Ontworpen om goed leesbaar te blijven onder rode filters / blauw-licht blokkade.</p>
+        <p class="note">Alle links zijn zorgvuldig gekozen op kwaliteit en vrijheid van gebruik. Veel materiaal is 100+ jaar oud of expliciet vrijgegeven.</p>
+    </div>
+
+    <!-- BOEKEN -->
+    <div class="section">
+        <h2>$ ls books / literature</h2>
+        <ul>
+            <li><a href="https://www.gutenberg.org/" target="_blank">Project Gutenberg</a> — grootste collectie gratis e-books in het publieke domein (literatuur, filosofie, wetenschap...)</li>
+            <li><a href="https://standardebooks.org/" target="_blank">Standard Ebooks</a> — professioneel opgemaakte, moderne edities van klassiekers (zeer hoge kwaliteit)</li>
+            <li><a href="https://librivox.org/" target="_blank">LibriVox</a> — gratis audioboeken ingesproken door vrijwilligers (publiek domein)</li>
+            <li><a href="https://archive.org/details/books" target="_blank">Internet Archive — Books</a> — miljoenen gescande boeken, inclusief zeldzame en oude werken</li>
+            <li><a href="https://www.gutenberg.org/browse/scores/top" target="_blank">Top 100 op Gutenberg</a> — meest gedownloade klassiekers</li>
+        </ul>
+    </div>
+
+    <!-- KUNST -->
+    <div class="section">
+        <h2>$ ls art / public domain visuals</h2>
+        <ul>
+            <li><a href="https://www.metmuseum.org/art/collection" target="_blank">The Met — Public Domain Collection</a> — tienduizenden kunstwerken vrij te gebruiken (The Metropolitan Museum of Art)</li>
+            <li><a href="https://www.nationalgallery.org.uk/" target="_blank">The National Gallery (London)</a> — grote collectie Europese schilderkunst, veel high-res downloads</li>
+            <li><a href="https://www.rijksmuseum.nl/nl/collectie" target="_blank">Rijksmuseum</a> — Nederlandse meesterwerken + uitgebreide publieke domein collectie</li>
+            <li><a href="https://www.wikiart.org/" target="_blank">WikiArt</a> — enorme database van kunstwerken met duidelijke public domain / CC labels</li>
+            <li><a href="https://artsandculture.google.com/" target="_blank">Google Arts & Culture</a> — virtuele tours door musea wereldwijd + zoombare high-res kunst</li>
+            <li><a href="https://commons.wikimedia.org/wiki/Category:Public_domain" target="_blank">Wikimedia Commons — Public Domain</a> — zoekmachine voor vrij materiaal</li>
+        </ul>
+    </div>
+
+    <!-- WETENSCHAP & NATUUR -->
+    <div class="section">
+        <h2>$ ls science / knowledge</h2>
+        <ul>
+            <li><a href="https://www.biodiversitylibrary.org/" target="_blank">Biodiversity Heritage Library</a> — enorme collectie natuurhistorische boeken, illustraties en wetenschappelijke werken (gratis)</li>
+            <li><a href="https://www.gutenberg.org/browse/categories/" target="_blank">Gutenberg — Science & Nature</a> — sectie met klassieke wetenschappelijke teksten</li>
+            <li><a href="https://archive.org/details/nasa_techdocs" target="_blank">NASA Technical Reports</a> — duizenden technische documenten en research papers (veel publiek domein)</li>
+            <li><a href="https://www.jstor.org/" target="_blank">JSTOR (open content)</a> — zoek op “public domain” of “open access” voor historische wetenschap</li>
+        </ul>
+    </div>
+
+    <!-- PERMACULTUUR -->
+    <div class="section">
+        <h2>$ ls permaculture / regeneration</h2>
+        <ul>
+            <li><a href="https://permacultureprinciples.com/" target="_blank">Permaculture Principles</a> — duidelijke uitleg van de 12 principes + ontwerp methodes</li>
+            <li><a href="https://www.permaculturenews.org/" target="_blank">Permaculture News / Research</a> — actuele artikelen en casestudies</li>
+            <li><a href="https://archive.org/search.php?query=permaculture" target="_blank">Internet Archive — Permaculture</a> — gratis boeken en documenten over permacultuur</li>
+            <li><a href="https://www.gutenberg.org/" target="_blank">Gutenberg</a> — zoek op “permaculture”, “agriculture” of “gardening” voor oudere klassiekers</li>
+        </ul>
+        <p class="note">Tip: combineer met eigen observaties van paardenweides, poelen en microklimaten. Veel klassieke permacultuur-kennis is al decennia vrij beschikbaar.</p>
+    </div>
+
+    <!-- PAARDVEILIGE PLANTEN -->
+    <div class="section">
+        <h2>$ ls plants / horse-safe</h2>
+        <ul>
+            <li><a href="https://extension.psu.edu/horse-safe-plants" target="_blank">Penn State Extension — Horse-Safe Plants</a> — goede lijsten en info over veilige vs giftige planten voor paarden</li>
+            <li><a href="https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants" target="_blank">ASPCA Toxic & Non-Toxic Plants</a> — zoekdatabase (hoewel meer voor honden/katten, ook relevant)</li>
+            <li><a href="https://www.equineguelph.ca/" target="_blank">Equine Guelph</a> — Canadese bron met research over paarden en omgeving (veilige begroeiing)</li>
+            <li><a href="https://archive.org/search.php?query=toxic+plants+horses" target="_blank">Internet Archive — Toxic Plants for Horses</a> — historische en praktische documenten</li>
+        </ul>
+        <p class="note">Voor eigen projecten (zoals Paardenwal / poel): focus op inheemse, robuuste, paardveilige soorten die ook ecologische waarde hebben (bijv. korenbloem, klaver, rozemarijn, munt, waterlelies, etc.).</p>
+    </div>
+
+    <!-- TOOLS & ZOEKEN -->
+    <div class="section">
+        <h2>$ ls tools / search</h2>
+        <ul>
+            <li><a href="https://search.creativecommons.org/" target="_blank">Creative Commons Search</a> — zoekmachine voor CC-gelicentieerd en publiek domein materiaal</li>
+            <li><a href="https://commons.wikimedia.org/" target="_blank">Wikimedia Commons</a> — grootste vrije mediabank (foto’s, illustraties, kaarten...)</li>
+            <li><a href="https://publicdomainreview.org/" target="_blank">The Public Domain Review</a> — curated essays + high-quality public domain beelden en teksten</li>
+            <li><a href="https://www.google.com/advanced_image_search" target="_blank">Google Advanced Image Search</a> — filter op “public domain” of “creative commons”</li>
+        </ul>
+    </div>
+
+    <div class="terminal">
+        <h2>$ echo "next steps"</h2>
+        <p>Deze pagina groeit mee met projecten rond Kwekerij KWEEK, de Paardenwal en permacultuur-observaties. Voeg gerust eigen schema’s, foto’s of notities toe.</p>
+        <p>Alle bronnen hierboven zijn vrij te gebruiken voor persoonlijk en commercieel werk (check per bron de exacte licentie).</p>
+    </div>
+
+    <footer>
+        © 2026 ddc90 — 9001 • designed for low blue light & red filter readability • built with terminal energy<br>
+        <span style="opacity:0.5;">branch: feature/9001 • not yet on main</span>
+    </footer>
+</body>
+</html>
